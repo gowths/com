@@ -1,0 +1,89 @@
+<!--**************************************
+	***************MASTER**************
+	********************MIND**************-->
+	
+<html>
+<head>
+ <link rel="stylesheet" href="ui.css" />
+
+</head>
+<body>
+     <script src="ui.js"></script>
+
+<div id ="container">
+<!--*****Contains the Layout of the game*************-->
+<h1> MASTER MIND </h1>
+<div id="board">
+<!---Board,user arena-->
+<div class="row" id="row1">
+<!--Illustrates the rows and has a row number with it--->
+<div class="coinB" id="b1" set="0" onclick = "changeColor(this.id)">
+<!---Buttons to represent the  user selections-->
+</div>
+<div class="coinB" id="b2" set="0" onclick = "changeColor(this.id)">
+</div>
+<div class="coinB" id="b3" set="0" onclick = "changeColor(this.id)">
+</div>
+<div class="coinB" id="b4" set="0" onclick = "changeColor(this.id)">
+</div>
+<div class="scoreB" id="score1">
+<!---Based on the user selection this provides the score-->
+<div class="cells" id="c1"></div>
+<div class="cells" id="c2"></div>
+<div class="cells" id="c3"></div>
+<div class="cells" id="c4"></div>	
+</div>
+</div>
+
+<div class="row" id="row2">
+<!--Illustrates the rows and has a row number with it--->
+<div class="coinB" id="b5" set="0" onclick = "changeColor(this.id)">
+<!---Buttons to represent the  user selections-->
+</div>
+<div class="coinB" id="b6" set="0" onclick = "changeColor(this.id)">
+</div>
+<div class="coinB" id="b7" set="0" onclick = "changeColor(this.id)">
+</div>
+<div class="coinB" id="b8" set="0" onclick = "changeColor(this.id)">
+</div>
+<div class="scoreB" id="score2">
+<!---Based on the user selection this provides the score-->
+<div class="cells" id="c1"></div>
+<div class="cells" id="c2"></div>
+<div class="cells" id="c3"></div>
+<div class="cells" id="c4"></div>	
+</div>
+</div>
+<div class="row" id="row3">
+<!--Illustrates the rows and has a row number with it--->
+<div class="coinB" id="b9" set="0" onclick = "changeColor(this.id)">
+<!---Buttons to represent the  user selections-->
+</div>
+<div class="coinB" id="b10" set="0" onclick = "changeColor(this.id)">
+</div>
+<div class="coinB" id="b11" set="0" onclick = "changeColor(this.id)">
+</div>
+<div class="coinB" id="b12" set="0" onclick = "changeColor(this.id)">
+</div>
+<div class="scoreB" id="score3">
+<!---Based on the user selection this provides the score-->
+<div class="cells" id="c1"></div>
+<div class="cells" id="c2"></div>
+<div class="cells" id="c3"></div>
+<div class="cells" id="c4"></div>	
+</div>
+</div>
+
+<div id="pick_colors" class="prow">
+<!---Provides colors from users can  make  a guess!--->
+<div class = "colorB" id ="blue" onclick = "setColor('#87cefa')"></div>
+<div class = "colorB" id="red" onclick = "setColor('#ff4d4d')"></div>
+<div class = "colorB" id="green" onclick = "setColor('#5cd65c')"></div>
+<div class = "colorB" id="yellow" onclick = "setColor('#ffff1a')"></div>
+<div class = "colorB" id="black" onclick = "setColor('#000000')"></div>
+</div>
+<button onclick="checkGuess()">check my guess!</button>
+</div>
+</div>
+</body>
+</html>	
