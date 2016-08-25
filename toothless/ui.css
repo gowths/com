@@ -97,3 +97,29 @@ background-color: black;
 	left:150px;
 	position:absolute;
 }
+
+.colorinfo{
+height:30px;
+width:30px;
+border:1px solid black;
+margin:10px;
+float:left;
+border-radius: 50px;
+left:0px;
+box-sizing: border-box;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+
+}
+
+
+
+#color_p{
+background-color: purple;	
+border:1px solid purple;
+}
+
+#color_b{
+background-color: orange;	
+border:0px solid orange;	
+}
